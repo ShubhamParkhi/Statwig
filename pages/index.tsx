@@ -9,7 +9,7 @@ import Footer from "../components/footer";
 
 const Statwig: NextPage = () => {
   return (
-    <div className="relative bg-white w-full flex flex-col items-center justify-start">
+    <div className="bg-white w-full flex flex-col items-center justify-start">
       <Header />
       <SupplyChainHeroContainer />
       <PartneredCompaniesContainer />
