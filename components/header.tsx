@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header: NextPage = () => {
   return (
-    <header className="w-full bg-white shadow-[0px_4px_20px_rgba(0,_0,_0,_0.1)] box-border h-[98px] flex flex-row items-center justify-center py-[22px] px-[30px] sticky w-full top-[0] [background:white] z-[2] border-b-[1px] border-solid border-gray-100 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
+    <header className="bg-white shadow-[0px_4px_20px_rgba(0,_0,_0,_0.1)] box-border h-[98px] flex flex-row items-center justify-center py-[22px] px-[30px] sticky w-full top-[0] [background:white] z-[2] border-b-[1px] border-solid border-gray-100 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
       <header className="flex-1 flex flex-row items-center justify-between max-w-[1280px] text-center text-xl text-black font-inter">
         <div className="tracking-[0.25em] leading-[22px] font-medium cursor-pointer">
           <span>STA</span>

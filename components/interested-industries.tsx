@@ -2,12 +2,12 @@ import type { NextPage } from "next";
 
 const InterestedIndustries: NextPage = () => {
   return (
-    <div className="w-full bg-mediumseagreen flex flex-col items-center justify-center py-[75px] px-[30px] text-center text-29xl text-midnightblue-100 font-inter">
-      <div className="w-full flex flex-col items-center justify-center gap-[50px] max-w-[1065px]">
-        <div className="w-full leading-[100%] inline-block max-w-[700px]">
+    <div className="self-stretch bg-mediumseagreen flex flex-col items-center justify-center py-[75px] px-[30px] text-center text-29xl text-midnightblue-100 font-inter">
+      <div className="flex flex-col items-center justify-center gap-[50px] max-w-[1065px]">
+        <div className="leading-[100%] inline-block max-w-[700px]">
           Industries we’re interested in, but not limited to
         </div>
-        <div className="w-full flex flex-row flex-wrap items-center justify-center py-[25px] px-px gap-[15px] text-5xl">
+        <div className="flex flex-row flex-wrap items-center justify-center py-[25px] px-px gap-[15px] text-5xl">
           <div className="rounded-xl bg-gray-200 w-[254.5px] flex flex-row items-center justify-between py-[54px] px-[61px] box-border">
             <div className="flex-1 tracking-[-1px] leading-[56px]">
               Life Science

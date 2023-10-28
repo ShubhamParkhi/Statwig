@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const IndustrySolutionSection: NextPage = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center py-[75px] px-[30px] text-left text-lg text-midnightblue-100 font-inter">
-      <div className="w-full flex flex-col items-center justify-start gap-[25px] max-w-[1065px]">
-        <div className="w-full text-29xl leading-[100%] text-center">
+    <div className="self-stretch flex flex-col items-center justify-center py-[75px] px-[30px] text-left text-lg text-midnightblue-100 font-inter">
+      <div className="flex flex-col items-center justify-start gap-[25px] max-w-[1065px]">
+        <div className="text-29xl leading-[100%] text-center">
           Built for all kinds of Industries
         </div>
         <div className="w-full overflow-hidden flex flex-row flex-wrap items-center justify-between sm:flex-col sm:gap-[20px] sm:items-start sm:justify-center">
@@ -28,16 +28,16 @@ const IndustrySolutionSection: NextPage = () => {
             <div className="leading-[20px]">ReCollect</div>
           </div>
         </div>
-        <div className="w-full h-[339px] flex flex-row items-center justify-between sm:flex-col sm:gap-[25px] sm:items-center sm:justify-center">
+        <div className="h-[339px] flex flex-row items-center justify-between sm:flex-col sm:gap-[25px] sm:items-center sm:justify-center">
           <Image
-            className="w-full flex-1 max-w-full overflow-hidden max-h-full object-contain sm:flex-[unset] sm:self-stretch"
+            className="flex-1 max-overflow-hidden max-h-full object-contain sm:flex-[unset] sm:self-stretch"
             alt=""
             src="/vldashboard-1@2x.png"
             
             width={1066}
             height={679}
           />
-          <div className="w-full flex-1 flex flex-col items-center justify-center gap-[25px] sm:flex-[unset] sm:self-stretch">
+          <div className="flex-1 flex flex-col items-center justify-center gap-[25px] sm:flex-[unset] sm:self-stretch">
             <div className="w-full text-5xl leading-[24px]">
               Vaccine
             </div>

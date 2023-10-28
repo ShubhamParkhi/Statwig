@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const SupplyChainHeroContainer: NextPage = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center py-[75px] px-[30px] text-left text-lg text-black font-inter">
-      <div className="w-full flex flex-row items-center justify-between max-w-[1065px] sm:flex-col sm:gap-[15px] sm:justify-center">
+    <div className="self-stretch flex flex-col items-center justify-center py-[75px] px-[30px] text-left text-lg text-black font-inter">
+      <div className="flex flex-row items-center justify-between max-w-[1065px] sm:flex-col sm:gap-[15px] sm:justify-center">
         <div className="flex-1 flex flex-col items-start justify-center gap-[35px]">
           <div className="text-29xl leading-[100%]">
             Leading the Decentralized Supply Chain Revolution
@@ -20,7 +20,7 @@ const SupplyChainHeroContainer: NextPage = () => {
           </div>
         </div>
         <Image
-          className="flex-1 max-w-full overflow-hidden h-[454px] object-contain"
+          className="flex-1 max-overflow-hidden h-[454px] object-contain"
           alt=""
           src="/frame-6@2x.png"
           priority

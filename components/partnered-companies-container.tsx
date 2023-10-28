@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const PartneredCompaniesContainer: NextPage = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center py-[75px] px-[30px] text-center text-5xl text-midnightblue-200 font-inter">
-      <div className="w-full flex flex-col items-center justify-start gap-[20px] max-w-[1065px]">
-        <div className="w-full leading-[24px]">
+    <div className="self-stretch flex flex-col items-center justify-center py-[75px] px-[30px] text-center text-5xl text-midnightblue-200 font-inter">
+      <div className="flex flex-col items-center justify-start gap-[20px] max-w-[1065px]">
+        <div className="leading-[24px]">
           Trusted by Top Industry Leaders
         </div>
-        <div className="w-full flex flex-row flex-wrap items-center justify-between mix-blend-luminosity max-w-[1165px]">
+        <div className="flex flex-row flex-wrap items-center justify-between mix-blend-luminosity max-w-[1165px]">
           <Image
             className="object-contain"
             alt=""
