@@ -32,6 +32,7 @@ module.exports = {
     fontSize: {
       lg: "18px",
       "5xl": "24px",
+      "21xl": "40px",
       "29xl": "48px",
       xl: "20px",
       inherit: "inherit",

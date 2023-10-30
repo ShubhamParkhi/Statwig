@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Head from "next/head";
 import type { AppProps } from "next/app";
 import "./global.css";
+import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -35,6 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </Fragment>
   );
 }
