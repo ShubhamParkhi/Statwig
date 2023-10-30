@@ -16,6 +16,7 @@ const HeroSectionAbout: NextPage = () => {
         className="w-full max-w-[1065px] overflow-hidden h-[342px] shrink-0 object-contain mt-[-50px] sm:flex-1"
         alt=""
         src="/image-2@2x.png"
+        priority
         width={2131}
         height={684}
       />
