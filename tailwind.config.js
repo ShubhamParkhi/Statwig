@@ -19,22 +19,30 @@ module.exports = {
         gray: {
           "100": "rgba(0, 0, 0, 0.2)",
           "200": "rgba(0, 0, 0, 0.25)",
+          "400": "#889099"
         },
         whitesmoke: "#f2f2f2",
-        ghostwhite: "#f1f3fd",
-        "primary-900": "#0f1320",
+        primary: {
+          "900": "#0f1320",
+          "800": "#1e2640"
       },
-      spacing: {},
+        ghostwhite: "#edeff6",
+        royalblue: "#3c6af6",
+        blueviolet: "#8a53ff",
+        gray1: "rgba(0, 0, 0, 0.5)",
+        darkslategray: "#434343",
+      },
       fontFamily: {
         inter: "Inter",
       },
     },
     fontSize: {
+      base: "16px",
       lg: "18px",
+      xl: "20px",
       "5xl": "24px",
       "21xl": "40px",
       "29xl": "48px",
-      xl: "20px",
       inherit: "inherit",
     },
     screens: {
