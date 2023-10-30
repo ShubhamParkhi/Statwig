@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 const SupplyChainHeroContainer: NextPage = () => {
   return (
@@ -13,10 +14,10 @@ const SupplyChainHeroContainer: NextPage = () => {
             As Your Trusted Digital Supply Chain Partner, StaTwig transforms
             Operations and makes a Positive Impact
           </div>
-          <div className="w-full flex flex-col items-start justify-end text-white cursor-pointer">
-            <a className="[text-decoration:none] rounded-lg bg-mediumslateblue flex flex-row items-center justify-center py-[15px] px-5 text-[inherit] border-[1px] border-solid border-mediumslateblue">
+          <div className=" flex flex-col items-start justify-end text-white cursor-pointer">
+            <Link href="/contact" className="[text-decoration:none] rounded-lg bg-mediumslateblue flex flex-row items-center justify-center py-[15px] px-5 text-[inherit] border-[1px] border-solid border-mediumslateblue">
               <div className="leading-[16px]">Request a Quote</div>
-            </a>
+            </Link>
           </div>
         </div>
         <Image

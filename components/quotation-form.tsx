@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 
 const QuotationForm: NextPage = () => {
   return (
@@ -13,9 +14,9 @@ const QuotationForm: NextPage = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-end text-left text-lg">
-          <a className="[text-decoration:none] rounded-lg bg-mediumslateblue flex flex-row items-center justify-center py-[15px] px-5 text-[inherit] border-[1px] border-solid border-mediumslateblue cursor-pointer">
+          <Link href="/contact" className="[text-decoration:none] rounded-lg bg-mediumslateblue flex flex-row items-center justify-center py-[15px] px-5 text-[inherit] border-[1px] border-solid border-mediumslateblue cursor-pointer">
             <div className="leading-[16px]">Request a Quote</div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

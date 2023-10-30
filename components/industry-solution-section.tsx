@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 const IndustrySolutionSection: NextPage = () => {
   return (
@@ -36,7 +37,7 @@ const IndustrySolutionSection: NextPage = () => {
             width={1066}
             height={679}
           />
-          <div className="flex-1 flex flex-col items-center justify-center gap-[25px] sm:self-stretch">
+          <div className="flex-1 flex flex-col items-start justify-center gap-[25px] sm:self-stretch">
             <div className="w-full text-5xl leading-[24px]">
               Vaccine Ledger
             </div>
@@ -44,9 +45,9 @@ const IndustrySolutionSection: NextPage = () => {
               Revolutionizing Supply Chain with Blockchain Technology and
               Vaccine Ledger for Transparency and Safety
             </div>
-            <div className="w-full leading-[24px] text-mediumslateblue cursor-pointer">
+            <Link href="/contact" className="[text-decoration:none] leading-[24px] text-mediumslateblue cursor-pointer">
               Request Demo
-            </div>
+            </Link>
           </div>
         </div>
       </div>
