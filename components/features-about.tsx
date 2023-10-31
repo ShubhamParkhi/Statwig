@@ -12,9 +12,7 @@ const FeaturesAbout: NextPage = () => {
           <div className="text-lg leading-[24px] text-midnightblue-200">
             Built on a platform that is dynamic, customisable and bulletproof.
             It is constantly evolving to ensure seamless operations while saving
-            time and money.It is constantly evolving to ensure seamless
-            operations while saving time and money.It is constantly evolving to
-            ensure.
+            time and money.
           </div>
         </div>
         <Image
